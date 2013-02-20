@@ -3,18 +3,12 @@
 <script>
 
 function a(num){
- if((num - Math.floor(num)) === 0){ // Math.floor возвращает наибольшее целое, меньшее или 
-	 alert('true');                 //равное аргументу.
- }
- else {                             // То есть я из указанного числа вычитаю наименьшее целое
-	 alert('false');                // и получаю дробную часть.
- }                                  // А потом сравниваю результат на идентичность с нулем =)
+ if((num - Math.floor(num)) === 0) return true;
+ else return false;
 }
-a(45.87698769);
+
+alert(a(3.1415));
+
 </script>
 </head>
-<body>
-
-
-</body>
 </html>
