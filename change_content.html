@@ -1,0 +1,63 @@
+<html>
+<head>
+<style type="text/css">
+
+#s1 {
+	display:none;
+}
+#s2 {
+	display:none;
+}
+#s3 {
+	display: none;
+}
+</style>
+</head>
+
+
+<body>
+<div id="middle">
+	<div class="sidebar" id="sideLeft">
+			<ul>
+			<li><a href="#" onclick="otkr(this)" id="m1"> 1111111</a></li>
+			<li><a href="#" onclick="otkr(this)"id="m2">2222222</a></li>
+			<li><a href="#" onclick="otkr(this)"id="m3">3333333</a></li>
+			</ul>
+		</div>
+<div id= "s1" >11111 111111111111111111111111111111 </div>
+
+<div id= "s2">222222 222222222222222 222222222222222222 2222222222222 22222222222222  </div>
+
+<div id= "s3">33333333333 33333333333333333 3333333333333333333333 </div>
+<script>
+				
+	
+function otkr(el) {
+    switch (el){
+	 case m1:
+	 	s1.style.display = "block";
+	 	s2.style.display = "none";
+	 	s3.style.display = "none";
+	 	break;
+	 case m2:
+	 	s2.style.display = "block";
+	 	s1.style.display = "none";
+	 	s3.style.display = "none";
+	 	break;
+	 case m3:
+	 	s3.style.display = "block";
+	 	s1.style.display = "none";
+	 	s2.style.display = "none";
+	 	break;
+	 default:
+ s1.style.display = "block";
+ s2.style.display = "none";
+ s3.style.display = "none";
+    }	
+ }
+	</script>
+</body>
+</html>
+
+
+
